@@ -19,23 +19,30 @@ The ".." at the end of the command points to the parent directory.
 It tells cmake where to find the main build script file (CMakeLists.txt).
 
 
+Instructions for Linux:
+----------------------------------------------
 
+- Go to empty "build" directory in the Khorjin IEEE C37.118 folder (libieee_c37_118)
+- Invoke cmake by accessing your terminal (ensure you are in the correct directory, listed above) and type in the following:
 
+cmake ..
 
+- The code should automatically be compiled using gcc
 
+The ".." at the end of the command points to the parent directory.
+It tells cmake where to find the main build script file (CMakeLists.txt).
 
+- If you wish to make changes to the cache, go to the directory with the Unix Makefile and type the following:
 
+ccmake OR cmake-gui
 
+- If you run into errors, make sure you have ccmake installed. To do so, simply type in:
 
+sudo apt-get install cmake-curses-gui
 
+- After finalizing everything in your project, go to the build directory and type in: 
 
-
-
-
-
-
-
-
+make
 
 
 
