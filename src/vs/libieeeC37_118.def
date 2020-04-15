@@ -1,0 +1,16 @@
+EXPORTS
+    c37_118client_connect
+	c37_118client_stopTransmission
+	c37_118client_startTransmission
+	c37_118client_getConfiguration
+	c37_118client_getDataStream
+	c37_118client_printDataStream
+	c37_118client_printConfiguration
+	c37_118client_outputDataStream
+	c37_118client_destroy
+	c37_118client_getConf_pdc
+	c37_118client_getConf_pmu
+	c37_118client_getConf_pmu_stationName
+	c37_118client_getConf_pmu_channelName
+	c37_118client_getConf_pmu_analogs
+	c37_118client_outputDataStream_status
